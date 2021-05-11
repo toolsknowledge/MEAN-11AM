@@ -1,0 +1,340 @@
+MEAN Stack Development
+----------------------
+
+1) MongoDB
+
+	Cloud MongoDB DataBase
+
+	MongoDB Atlas
+
+
+2) ExpressJS
+
+
+3) Angular11
+	Network Calls / Asynchronous Calls / Http Calls
+	NgRx State Management
+
+
+4) NodeJS
+
+
+5) MiniProject
+
+
+6) Cloud Deployment
+
+	AWS(Amazon Web Services) Deployment
+					Angular11
+					---------
+
+
+	- Angular is Framework.
+
+	- Angular Given by google.
+
+	- Angular categorized into 3 flavours.
+
+		1) AngularJS
+
+		2) Angular2
+
+		3) Angular Material
+
+	- AngularJS used to develop the web applications with the help of JavaScript.
+
+
+	- Angular2 used to develop the web applications and mobile application with the help of 
+	  TypeScript
+
+
+	- Angular2 Advanced version is Angular11
+
+	- TypeScript is the Programming Language given by Microsoft and follows the OOPS.
+
+	- Angular Material, used to apply the Rich UI to both web applications and mobile applications.
+
+	- Angular11 installation depending on npm tool.	
+
+	- npm stands for node packaging manager.
+
+	- npm present in NodeJS.
+	
+	- yarn is the 3rd party tool, provided by facebook used to download the 3rd party libraries.
+
+	- Visual Studio Code is the Suggestable IDE to build the Angular11 Applications.
+
+	- VSCode Given by Microsoft and open source IDE.
+
+
+Installation of Angular11
+-------------------------
+1) install NodeJS
+
+	NodeJS containes following tools.
+
+		1) npm
+
+		2) node
+
+		3) npx
+
+		---
+		---
+		---
+	npm stands for node pckaging manager
+
+	npm helps to install Angular,React,VueJS,CoffeeScript,.......
+
+	node tool, helps to execute the JavaScript.
+
+	npx stands for node packaging runner.
+
+	npx helps to create the react projects
+
+website : https://nodejs.org/en/
+
+file    : node-v16.1.0-x64.msi
+
+
+	msi stands for microsoft installer
+
+
+
+2) install yarn tool
+
+	yarn is the tool, provided by facebook
+
+	yarn tool, used to download the 3rd party libraries
+
+	we will install yarn tool by using following command
+
+
+	> npm install -g yarn
+
+	"-g" stands for global installation
+
+
+3) install Angular11
+
+	Angular11 also command based installation.
+
+	
+	> npm install -g @angular/cli
+
+
+	cli stands for command line interface
+
+	cli helps to create the angular applications in faster manner
+
+
+4) link the yarn tool to cli tool
+
+
+	> ng config -g cli.packageManager yarn
+
+	where "M" is the capital in "packageManager"
+
+
+5) install Visual Studio Code
+
+
+	website : https://code.visualstudio.com/docs/?dv=win
+
+	file    : VSCodeUserSetup-x64-1.56.0.exe
+
+
+
+Steps to create the First Angular Application
+---------------------------------------------
+1) create the directory
+
+	Ex.
+		MEAN@11AM    (open with the help of VSCode)
+
+
+
+2) create the angular application
+
+	> ng new firstApp
+
+	where "firstApp" is the name of the angular application.
+
+
+3) switch to angular application
+
+	> cd firstApp
+
+
+4) execute the angular application
+
+	> ng s -o
+
+	"s" stands for "serve"
+
+	"-o" stands for "open" the default browser.
+
+	The default port number of angular application is "4200"
+
+
+								Component
+
+	- simple typescript class behaves like component.
+
+	- Each Reusable Portion of complex UI called as Component.
+
+	- As a Angular developer, we can provide communication between one component to another component.
+
+********************************************
+firstApp
+       src
+	     app
+		   first.component.ts
+		   first.component.html
+
+		   app.module.ts
+
+		index.html
+********************************************
+
+	"first.component.ts" file acting as component.
+
+	"first.component.html" file, used to display the component result.
+
+	"app.module.ts" file is the registration file.
+
+	"index.html" file is the main template.
+
+	angular starts the execution from "index.html" file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
