@@ -185,28 +185,29 @@ Steps to create the First Angular Application
 
 	- As a Angular developer, we can provide communication between one component to another component.
 
-********************************************
+
+**************************************
 firstApp
-       src
+	   src
 	     app
 		   first.component.ts
 		   first.component.html
 
 		   app.module.ts
+		 index.html
+***************************************
 
-		index.html
-********************************************
+	- "first.component.ts" file used to create the component.
 
-	"first.component.ts" file acting as component.
+	- "first.component.html" file used to display the component output.
 
-	"first.component.html" file, used to display the component result.
+	- "app.module.ts" file is the registration file.
 
-	"app.module.ts" file is the registration file.
+	- in registration file we will register components.
 
-	"index.html" file is the main template.
+	- "index.html" file is the main html file.
 
-	angular starts the execution from "index.html" file.
-
+	- angular starts the execution from "index.html" file.
 
 
 
