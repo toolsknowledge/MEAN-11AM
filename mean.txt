@@ -210,6 +210,111 @@ firstApp
 	- angular starts the execution from "index.html" file.
 
 
+										***** Services *****
+
+	- services are used to share the common business logic to multiple components
+
+	- providing communication between service to components called as dependency injection.
+
+******************************************
+serviceApp
+	    src
+		  app
+		   services
+		     my.service.ts
+		   components
+		   	 first.component.ts
+			 first.component.html
+
+			 second.component.ts
+			 second.component.html
+
+		  app.module.ts
+		index.html
+*******************************************	 
+
+
+							Rest API Calls
+
+Step 1.
+	create the angular application
+
+		> ng new countriesApp
+
+			where "countriesApp" is the name of the angular application
+
+Step 2.
+	switch to angular application
+
+	> cd countriesApp
+
+Step 3.
+	create the service
+
+	*********************************************
+	countriesApp
+			  src
+			    app
+				  countries.service.ts
+	********************************************
+
+		finally countriesService is ready with getCountries() function
+
+
+Step 4.
+	create the component
+
+	************************************************
+	countriesApp
+		       src
+			     app
+				   countries.component.ts
+				   countries.component.html
+
+
+				   app.module.ts
+	************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
