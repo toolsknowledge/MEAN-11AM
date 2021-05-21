@@ -278,6 +278,59 @@ Step 4.
 
 
 
+									***** Single Page Applications *****
+
+	- loading one component to another component without refreshing the whole webpage called as single page application.
+
+	- movement of one component to another component in single page application called as "Routing".
+
+	- "RouterModule" is the predefined module, used to implement the "Routing" in Single Page Application.
+
+
+steps to implement the single page application
+----------------------------------------------
+step 1.
+	create the angular application
+
+	where "spa-app" is the name of the angular application
+
+step 2.
+	switch to angular application
+
+	> cd spa-app
+
+
+step 3.
+	create the components
+
+	***********************************************
+	spa-app
+	      src
+		    app
+			  main.component.ts
+			  main.component.html
+
+			  mean.component.ts
+			  mean.component.html
+
+			  mern.component.ts
+			  mern.component.html
+
+			  mevn.component.ts
+			  mevn.component.html
+
+			  app.module.ts
+			index.html
+	*************************************************
+
+	where "mainComponent" is the master component.
+
+	where "meanComponent", "mernComponent" and "mevnComponent" are child components. 
+
+
+
+
+
 
 
 
