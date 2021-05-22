@@ -330,6 +330,119 @@ step 3.
 
 
 
+										MEAN STACK PROJECT
+
+M - MongoDB
+
+E - ExpressJS
+
+A - Angular
+
+N - NodeJS
+
+
+step 1.
+	deploy the images to s3 bucket
+
+
+	=> https://meanproj.s3.ap-south-1.amazonaws.com/p1.jpg
+
+	=> https://meanproj.s3.ap-south-1.amazonaws.com/p2.jpg
+
+	=> https://meanproj.s3.ap-south-1.amazonaws.com/p3.jpg
+
+	=> https://meanproj.s3.ap-south-1.amazonaws.com/p4.jpg
+
+	=> https://meanproj.s3.ap-south-1.amazonaws.com/p5.jpg
+
+	=> https://meanproj.s3.ap-south-1.amazonaws.com/p6.jpg
+
+
+Step 2.
+
+	DataBase Name  :  mean
+
+	Collection Name : products
+
+	user name : admin
+
+	password 	:	admin
+
+	connection url : mongodb+srv://admin:admin@cluster0.jgnmk.mongodb.net/mean?retryWrites=true&w=majority
+
+
+Step 3.
+	develop the rest api by using NodeJS
+
+	=> create the directory
+
+		Ex.
+			server
+
+	=> switch to server directory
+
+		Ex.
+			> cd server
+
+
+step 4.	
+	download the node modules
+
+	=> express
+
+	=> mongoose
+
+	=> body-parser
+
+	=> cors
+
+	> yarn add express mongoose body-parser cors --save
+
+
+step 5.
+	develop the node server
+
+	server.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
